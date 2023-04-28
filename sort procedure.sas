@@ -17,3 +17,9 @@ run;
 proc sort data=z3;
 by age;
 run;
+
+/*sort by Weight*/
+
+proc sort data=z3;
+by weight;
+run;
